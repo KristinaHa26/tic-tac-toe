@@ -1,0 +1,43 @@
+# Dependency directories
+/node_modules/
+/deps/
+/states/
+
+# Build artifacts
+/artifacts/
+/contracts/artifacts/
+/cache/
+/build-info/
+
+# Environment variables
+.env
+
+# Remix-specific files
+/.states/
+
+# Temporary files
+*.zip
+*.log
+*.tmp
+
+
+# Hardhat specific files
+/.deps/
+/node_modules/hardhat/
+/build/
+/*.sol-cov/
+
+# Editor specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Prettier config file (optional to ignore if you prefer to keep it versioned)
+.prettierrc.json
+
+# TypeScript build files
+*.tsbuildinfo
+
